@@ -1,0 +1,108 @@
+#mainNavbar .nav-link {
+    color: black;
+    
+}
+#mainNavbar img{
+    height: 3.3rem;
+    width: 8.7rem;
+}
+
+#mainNavbar{
+    background: white;
+     border-bottom: 2px solid rgba(188, 184, 184, 0.8);
+     padding-bottom:0%;
+     margin-top:0%;
+     margin-bottom: 0%;
+     font-size: 23px;
+ }
+
+ #mainNavbar .nav-link:hover{
+    border-bottom: 5px solid rgb(0,0,128);
+    font-weight: bold;
+}
+
+.pt{
+    font-weight: normal;
+}
+
+.btn-info{
+    padding: 16px 12px;
+    border-radius:44px/44px;
+    background:rgb(0,0,205);
+    border:rgb(0,0,205);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-info:hover{
+    border-radius:44px/44px;
+    border:rgb(239, 70, 48);
+    background:rgb(239, 70, 48);
+    color:black; 
+}
+
+.togl{
+    outline: 0;
+    padding: 5px 12px ;
+    border-radius: 0%;
+    font-size: 30px;
+    border:1px solid rgba(188, 184, 184, 0.8);
+    background: white;
+    color:black;
+    font-weight: bold;
+    width: 12rem;
+}
+.togl:hover{
+    background: rgb(67, 214, 255);
+    color:black;
+}
+.togl.active{
+    background: rgb(67, 214, 255);
+    color:black;
+}
+.clr{
+    color:rgb(239, 70, 48);
+}
+
+#myDIV1{
+    display:none;
+}
+
+#mySection1{
+    display:none;
+}
+
+#footer{
+    background:rgb(0,0,128);
+    color:white;
+    overflow: hidden;
+}
+
+#footer .btn-info{
+    border-radius:44px/44px;
+    border:rgb(239, 70, 48);
+    background:rgb(239, 70, 48);
+    color:black; 
+}
+
+.sz{
+    font-size:2.5rem;
+    /* float: right; */
+} 
+.sizin{
+    height: 25rem;
+}
+#footer a{
+    color:inherit;
+}
+
+@media (max-width: 992px) { 
+
+    #mainNavbar .nav-link{
+        text-align: center;
+
+    }
+    #mainNavbar .nav-link:hover{
+        border:0px;
+    }
+ }
